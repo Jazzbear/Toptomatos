@@ -1,0 +1,4 @@
+EXE=prog
+OBJECTS=main.cpp part1.h part1.cpp part2.h part2.cpp
+$(EXE): $(OBJECTS)
+	$(CXX) -o $@ $^
